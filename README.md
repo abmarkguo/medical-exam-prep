@@ -129,6 +129,15 @@ medical-exam-prep/
 ### 技能考试三站
 ![Skills Stations](docs/images/skills-stations-en.svg)
 
+### 备考工作流
+![Study Workflow](docs/images/study-workflow-en.svg)
+
+### 考点速查
+![Knowledge Query](docs/images/knowledge-query-en.svg)
+
+### 练习闭环
+![Practice Loop](docs/images/practice-loop-en.svg)
+
 ---
 
 ## 🚀 使用方法
