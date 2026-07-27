@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a2647;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow1">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="650" fill="url(#bg1)" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" fill="#e94560" font-size="22" font-weight="bold">Medical Licensing Exam Preparation System</text>
+  <text x="450" y="62" text-anchor="middle" fill="#8d99ae" font-size="13">National Medical Licensing Examination - Clinical Category</text>
+
+  <!-- Central Hub -->
+  <ellipse cx="450" cy="340" rx="100" ry="50" fill="url(#accent1)" stroke="#e94560" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="450" y="335" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">Medical Exam</text>
+  <text x="450" y="355" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">Preparation Skill</text>
+
+  <!-- Module 1: Knowledge Lookup (top-left) -->
+  <rect x="40" y="110" width="200" height="100" rx="10" fill="url(#card1)" stroke="#0f3460" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="140" y="140" text-anchor="middle" fill="#4ecca3" font-size="15" font-weight="bold">Module 1</text>
+  <text x="140" y="160" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Knowledge Lookup</text>
+  <text x="140" y="180" text-anchor="middle" fill="#a0a0b0" font-size="11">Search by subject,</text>
+  <text x="140" y="195" text-anchor="middle" fill="#a0a0b0" font-size="11">system, or disease</text>
+  <line x1="240" y1="160" x2="355" y2="320" stroke="#4ecca3" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Module 2: Question Practice (top-right) -->
+  <rect x="660" y="110" width="200" height="100" rx="10" fill="url(#card1)" stroke="#0f3460" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="760" y="140" text-anchor="middle" fill="#e94560" font-size="15" font-weight="bold">Module 2</text>
+  <text x="760" y="160" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Question Practice</text>
+  <text x="760" y="180" text-anchor="middle" fill="#a0a0b0" font-size="11">A1 / A2 / A3 / A4 / B1</text>
+  <text x="760" y="195" text-anchor="middle" fill="#a0a0b0" font-size="11">5 question types</text>
+  <line x1="660" y1="160" x2="545" y2="320" stroke="#e94560" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Module 3: Case Analysis (bottom-left) -->
+  <rect x="40" y="470" width="200" height="100" rx="10" fill="url(#card1)" stroke="#0f3460" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="140" y="500" text-anchor="middle" fill="#f5a623" font-size="15" font-weight="bold">Module 3</text>
+  <text x="140" y="520" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Case Analysis</text>
+  <text x="140" y="540" text-anchor="middle" fill="#a0a0b0" font-size="11">Progressive clinical</text>
+  <text x="140" y="555" text-anchor="middle" fill="#a0a0b0" font-size="11">scenario training</text>
+  <line x1="240" y1="520" x2="355" y2="360" stroke="#f5a623" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Module 4: Skills Simulation (bottom-right) -->
+  <rect x="660" y="470" width="200" height="100" rx="10" fill="url(#card1)" stroke="#0f3460" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="760" y="500" text-anchor="middle" fill="#7b68ee" font-size="15" font-weight="bold">Module 4</text>
+  <text x="760" y="520" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Skills Simulation</text>
+  <text x="760" y="540" text-anchor="middle" fill="#a0a0b0" font-size="11">3-station practical</text>
+  <text x="760" y="555" text-anchor="middle" fill="#a0a0b0" font-size="11">exam simulation</text>
+  <line x1="660" y1="520" x2="545" y2="360" stroke="#7b68ee" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Bottom info bar -->
+  <rect x="40" y="600" width="820" height="35" rx="6" fill="#0a2647" stroke="#0f3460" stroke-width="1"/>
+  <text x="120" y="622" text-anchor="middle" fill="#8d99ae" font-size="11">Based on NHC 2024 Syllabus</text>
+  <text x="320" y="622" text-anchor="middle" fill="#8d99ae" font-size="11">PMPH Textbook Series</text>
+  <text x="500" y="622" text-anchor="middle" fill="#8d99ae" font-size="11">Pass Rate ~25%</text>
+  <text x="680" y="622" text-anchor="middle" fill="#8d99ae" font-size="11">Clinical Category Focus</text>
+
+  <!-- Stats badges -->
+  <rect x="370" y="90" width="160" height="30" rx="15" fill="#e94560" opacity="0.15" stroke="#e94560" stroke-width="1"/>
+  <text x="450" y="110" text-anchor="middle" fill="#e94560" font-size="12" font-weight="bold">600 Questions | 360 to Pass</text>
+</svg>
