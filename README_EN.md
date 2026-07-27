@@ -56,6 +56,31 @@ Full simulation of the three-station practical skills exam with official scoring
 
 ---
 
+## Flowcharts
+
+### System Overview
+![System Overview](docs/images/system-overview-en.svg)
+
+### Exam Structure
+![Exam Structure](docs/images/exam-structure-en.svg)
+
+### Question Types
+![Question Types](docs/images/question-types-en.svg)
+
+### Skills Stations
+![Skills Stations](docs/images/skills-stations-en.svg)
+
+### Study Workflow
+![Study Workflow](docs/images/study-workflow-en.svg)
+
+### Knowledge Query
+![Knowledge Query](docs/images/knowledge-query-en.svg)
+
+### Practice Loop
+![Practice Loop](docs/images/practice-loop-en.svg)
+
+---
+
 ## File Structure
 
 ```
