@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stationCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a2647;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow4">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="700" fill="url(#bg4)" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" fill="#e94560" font-size="20" font-weight="bold">Practical Skills Exam - Three Stations</text>
+  <text x="450" y="58" text-anchor="middle" fill="#8d99ae" font-size="12">Total: 100 points | Pass: 60 | National Skills Base | Video Recorded | 2-Year Validity</text>
+
+  <!-- Station 1 -->
+  <rect x="30" y="80" width="840" height="180" rx="10" fill="url(#stationCard)" stroke="#4ecca3" stroke-width="2" filter="url(#shadow4)"/>
+  <rect x="30" y="80" width="840" height="32" rx="10" fill="#4ecca3" opacity="0.15"/>
+  <text x="450" y="102" text-anchor="middle" fill="#4ecca3" font-size="16" font-weight="bold">Station 1: Clinical Thinking (40 points | ~26 min)</text>
+
+  <!-- History Taking -->
+  <rect x="50" y="125" width="380" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="240" y="148" text-anchor="middle" fill="#4ecca3" font-size="14" font-weight="bold">History Taking (15 pts)</text>
+  <text x="65" y="170" fill="#c0c0d0" font-size="11">Given: Chief complaint only</text>
+  <text x="65" y="188" fill="#c0c0d0" font-size="11">Write: Complete structured history</text>
+  <text x="65" y="206" fill="#f5a623" font-size="11">Key: 7 elements of present illness (7 pts)</text>
+  <text x="65" y="224" fill="#f5a623" font-size="11">Key: Negative symptoms for differential Dx</text>
+  <text x="65" y="240" fill="#e94560" font-size="11">Pitfall: Missing negative differential symptoms</text>
+
+  <!-- Case Analysis -->
+  <rect x="460" y="125" width="380" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="650" y="148" text-anchor="middle" fill="#4ecca3" font-size="14" font-weight="bold">Case Analysis (25 pts)</text>
+  <text x="475" y="170" fill="#c0c0d0" font-size="11">Given: Full case (Hx + Exam + Labs)</text>
+  <text x="475" y="188" fill="#c0c0d0" font-size="11">Write: 5-part structured analysis</text>
+  <text x="475" y="206" fill="#f5a623" font-size="11">Dx(8) + Dx Basis(6) + DDx(5) + Workup(3) + Tx(3)</text>
+  <text x="475" y="224" fill="#f5a623" font-size="11">Key: Complete diagnosis (main + complications)</text>
+  <text x="475" y="240" fill="#e94560" font-size="11">Pitfall: Incomplete diagnosis missing staging/grading</text>
+
+  <!-- Station 2 -->
+  <rect x="30" y="280" width="840" height="180" rx="10" fill="url(#stationCard)" stroke="#f5a623" stroke-width="2" filter="url(#shadow4)"/>
+  <rect x="30" y="280" width="840" height="32" rx="10" fill="#f5a623" opacity="0.15"/>
+  <text x="450" y="302" text-anchor="middle" fill="#f5a623" font-size="16" font-weight="bold">Station 2: Physical Exam + Basic Operations (30 points | ~24 min)</text>
+
+  <!-- Physical Exam -->
+  <rect x="50" y="325" width="380" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="240" y="348" text-anchor="middle" fill="#f5a623" font-size="14" font-weight="bold">Physical Examination (15 pts)</text>
+  <text x="65" y="370" fill="#c0c0d0" font-size="11">Systems: Cardiac, Pulmonary, Abdomen, Neuro</text>
+  <text x="65" y="388" fill="#c0c0d0" font-size="11">Method: Inspection + Palpation + Percussion + Auscultation</text>
+  <text x="65" y="406" fill="#f5a623" font-size="11">Key: Standard technique, correct sequence</text>
+  <text x="65" y="424" fill="#f5a623" font-size="11">Key: Compare left vs right, healthy vs affected</text>
+  <text x="65" y="440" fill="#e94560" font-size="11">Pitfall: Forgetting patient care (warm hands, explain)</text>
+
+  <!-- Basic Operations -->
+  <rect x="460" y="325" width="380" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="650" y="348" text-anchor="middle" fill="#f5a623" font-size="14" font-weight="bold">Basic Operations (15 pts)</text>
+  <text x="475" y="370" fill="#c0c0d0" font-size="11">High-freq: Surgical scrub, sterile technique, suturing</text>
+  <text x="475" y="388" fill="#c0c0d0" font-size="11">High-freq: CPR, catheterization, thoracentesis</text>
+  <text x="475" y="406" fill="#f5a623" font-size="11">Key: Aseptic technique throughout (critical!)</text>
+  <text x="475" y="424" fill="#f5a623" font-size="11">Key: Verbalize each step while performing</text>
+  <text x="475" y="440" fill="#e94560" font-size="11">Pitfall: Violating sterile field = automatic deduction</text>
+
+  <!-- Station 3 -->
+  <rect x="30" y="480" width="840" height="180" rx="10" fill="url(#stationCard)" stroke="#7b68ee" stroke-width="2" filter="url(#shadow4)"/>
+  <rect x="30" y="480" width="840" height="32" rx="10" fill="#7b68ee" opacity="0.15"/>
+  <text x="450" y="502" text-anchor="middle" fill="#7b68ee" font-size="16" font-weight="bold">Station 3: Multimedia Computer Exam (30 points | ~15 min)</text>
+
+  <!-- 4 sub-items -->
+  <rect x="50" y="525" width="190" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="145" y="548" text-anchor="middle" fill="#7b68ee" font-size="13" font-weight="bold">Auscultation (8 pts)</text>
+  <text x="60" y="570" fill="#c0c0d0" font-size="11">Cardiac: murmurs, S3, S4</text>
+  <text x="60" y="588" fill="#c0c0d0" font-size="11">Pulmonary: rales, wheezes</text>
+  <text x="60" y="606" fill="#f5a623" font-size="11">4 questions</text>
+  <text x="60" y="624" fill="#e94560" font-size="11">Key: Identify murmur timing</text>
+
+  <rect x="260" y="525" width="190" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="355" y="548" text-anchor="middle" fill="#7b68ee" font-size="13" font-weight="bold">Imaging (6 pts)</text>
+  <text x="270" y="570" fill="#c0c0d0" font-size="11">X-ray: chest, abdomen</text>
+  <text x="270" y="588" fill="#c0c0d0" font-size="11">CT: head, chest, abdomen</text>
+  <text x="270" y="606" fill="#f5a623" font-size="11">3 questions</text>
+  <text x="270" y="624" fill="#e94560" font-size="11">Key: Air-fluid levels, opacities</text>
+
+  <rect x="470" y="525" width="190" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="565" y="548" text-anchor="middle" fill="#7b68ee" font-size="13" font-weight="bold">ECG (7 pts)</text>
+  <text x="480" y="570" fill="#c0c0d0" font-size="11">Arrhythmias: AF, VT, AVB</text>
+  <text x="480" y="588" fill="#c0c0d0" font-size="11">Ischemia: ST elevation/depression</text>
+  <text x="480" y="606" fill="#f5a623" font-size="11">3 questions</text>
+  <text x="480" y="624" fill="#e94560" font-size="11">Key: ST segment + Q waves</text>
+
+  <rect x="680" y="525" width="190" height="120" rx="8" fill="#0a2647" opacity="0.6"/>
+  <text x="775" y="548" text-anchor="middle" fill="#7b68ee" font-size="13" font-weight="bold">Ethics (9 pts)</text>
+  <text x="690" y="570" fill="#c0c0d0" font-size="11">Informed consent</text>
+  <text x="690" y="588" fill="#c0c0d0" font-size="11">Privacy, confidentiality</text>
+  <text x="690" y="606" fill="#f5a623" font-size="11">3 questions</text>
+  <text x="690" y="624" fill="#e94560" font-size="11">Key: Patient interests first</text>
+
+  <!-- Flow arrow -->
+  <text x="450" y="675" text-anchor="middle" fill="#8d99ae" font-size="12">Station 1 (-&gt;) Station 2 (-&gt;) Station 3 | Sequential | Cannot return to previous station</text>
+</svg>
