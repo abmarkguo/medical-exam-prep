@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite it as below."
+title: "Medical Licensing Exam Preparation Skill"
+authors:
+  - alias: "OpenClaw"
+type: software
+version: 1.0.0
+date-released: 2026-07-27
+license: MIT
+repository-code: "https://github.com/abmarkguo/medical-exam-prep"
+keywords:
+  - medical-exam
+  - physician-licensure
+  - clinical-medicine
+  - exam-preparation
+  - medical-education
+  - china
+  - question-bank
+  - case-analysis
+  - clinical-skills
+  - board-review
+abstract: >-
+  Comprehensive medical licensing exam preparation skill for Chinese clinical
+  medical students. Covers both practical skills exam and medical comprehensive
+  written exam. Provides knowledge lookup, question practice, case analysis
+  training, and skills simulation based on official NHC syllabus and PMPH
+  textbooks.
